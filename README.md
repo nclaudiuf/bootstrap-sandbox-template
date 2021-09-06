@@ -8,13 +8,13 @@
 
 ## About
 
-`bootstrap-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.
+`bootstrap-sandbox-template` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo & @ncladuiuf. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.
 
 [![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/nclaudiuf/bootstrap-template)
 
 ## Repo template
 
-Setup as a starter template, you can easily generate a new GitHub repository. From the repository homepage, click the `Use this template` button.
+Setup as a starter template, you can easily generate a new GitHub repository. From the repository homepage, click the `Use this template` button or use the template on codesandbox.
 
 ## What's included
 
@@ -73,7 +73,7 @@ The following npm scripts are available to you in this starter repo. With the ex
 | `test`        | Runs `css-lint` and `css`, in sequential order                                     |
 | `dev`         | Watches Sass for changes and starts a local server                                 |
 
-## Local server using Codesandbox IDE (🚧 Currently Testing)
+### Local server using Codesandbox IDE (🚧 Currently Testing)
 
 I recently stumble upon codesandbox and found it quite easy to get started and maintain a project.
 
@@ -125,7 +125,7 @@ Stylelint is included, as is Bootstrap's default Stylelint config, [stylelint-co
 
 At the root of the repo, `.stylelintignore` is used to list files that we ignore when linting and `.stylelintrc` is where we tell Stylelint to use the Bootstrap config. The former is recommended based on your specific needs, while the latter is required.
 
-### Vercel Configurations
+## Vercel Configurations
 
 Configurations based on parceljs v2, be sure to visit [parceljs](https://v2.parceljs.org/getting-started/webapp/) for more information.
 
@@ -138,7 +138,7 @@ dist/
 npm install --save-dev parcel | yarn add --dev parcel
 ```
 
-### PageSpeed Insights Results
+## PageSpeed Insights Results
 
 According to google pagespeed insights score both 100 on mobile and desktop.
 
@@ -146,10 +146,10 @@ According to google pagespeed insights score both 100 on mobile and desktop.
   <img class="img-fluid" src=".github/source-google-pagespeed-insights.png" alt="google pagespeed insights">
 </div>
 
-## Credits & Thanks
-
-[@mdo](https://github.com/mdo)
-
 ## Copyright
 
 &copy; @nclaudiuf 2020-2021 and licensed MIT.
+
+### Credits & Thanks
+
+[@mdo](https://github.com/mdo)

@@ -17,3 +17,4 @@
 // import "../../node_modules/popper.js/dist/popper.min.js";
 
 import '../../node_modules/bootstrap/js/dist/modal.js';
+import '../../node_modules/bootstrap-icons/bootstrap-icons.svg';

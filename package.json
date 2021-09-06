@@ -2,7 +2,7 @@
   "name": "bootstrap-sandbox-template",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "[CICD] Bootstrap Sandbox Starter Template purging unused css and bundling with parcel.\n\n[CICD-chain:] Sandbox-Github.Pages-Vercel.",
   "author": "@nclaudiuf",
   "license": "MIT",
   "repository": {
@@ -45,5 +45,10 @@
     "stylelint": "^13.12.0",
     "stylelint-config-twbs-bootstrap": "^2.1.0"
   },
-  "keywords": []
+  "keywords": [
+    "vanilla",
+    "parcel",
+    "bootstrap",
+    "ci-cd"
+  ]
 }

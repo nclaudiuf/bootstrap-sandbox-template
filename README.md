@@ -1,5 +1,5 @@
 <p align="center">
- <img src=".github/bs.logo.png" alt="bootsrap logo" width="32" height="32"/>
+ <img src=".github/bs.logo.png" alt="bootsrap logo" width="64" height="64"/>
 </p>
 
 <h3 align="center">Bootstrap npm starter template</h3>

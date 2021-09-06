@@ -125,9 +125,11 @@ Stylelint is included, as is Bootstrap's default Stylelint config, [stylelint-co
 
 At the root of the repo, `.stylelintignore` is used to list files that we ignore when linting and `.stylelintrc` is where we tell Stylelint to use the Bootstrap config. The former is recommended based on your specific needs, while the latter is required.
 
-## Vercel Configurations
+## Vercel Build & Development Settings
 
 Configurations based on parceljs v2, be sure to visit [parceljs](https://v2.parceljs.org/getting-started/webapp/) for more information.
+
+Configurations need to be made on vercel project settings page. (🚧 TODO create a json script for setup)
 
 ```shell
 #Build Command:

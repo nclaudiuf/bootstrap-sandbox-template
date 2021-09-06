@@ -150,7 +150,7 @@ According to google pagespeed insights score both 100 on mobile and desktop.
 
 ## Copyright
 
-&copy; @nclaudiuf 2020-2021 and licensed MIT.
+&copy; @nclaudiuf 2021-2022 and licensed MIT.
 
 ### Credits & Thanks
 

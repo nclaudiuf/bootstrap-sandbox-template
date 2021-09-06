@@ -143,7 +143,7 @@ npm install --save-dev parcel | yarn add --dev parcel
 According to google pagespeed insights score both 100 on mobile and desktop.
 
 <div align="center">
-  <img src=".github/source-google-pagespeed-insights.png" width="480" height="480" alt="google pagespeed insights">
+  <img class="img-fluid" src=".github/source-google-pagespeed-insights.png" alt="google pagespeed insights">
 </div>
 
 ## Credits & Thanks

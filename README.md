@@ -8,7 +8,7 @@
 
 ## About
 
-`bootstrap-sandbox-template` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo & @ncladuiuf. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.
+`bootstrap-sandbox-template` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @ncladuiuf. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.
 
 [![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/nclaudiuf/bootstrap-template)
 
@@ -152,6 +152,6 @@ According to google pagespeed insights score both 100 on mobile and desktop.
 
 &copy; @nclaudiuf 2021-2022 and licensed MIT.
 
-### Credits & Thanks
+### Credits
 
-[@mdo](https://github.com/mdo)
+[@mdo](https://github.com/mdo) & Bootstrap team

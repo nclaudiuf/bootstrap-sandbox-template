@@ -2,7 +2,7 @@
   "name": "flexstrap-starter-template",
   "version": "1.0.0",
   "private": true,
-  "description": "[CICD] Bootstrap Sandbox Starter Template purging unused css and bundling with parcel.\n\n[CICD-chain:] Sandbox-Github.Pages-Vercel.",
+  "description": "",
   "author": "@nclaudiuf",
   "license": "MIT",
   "repository": {
@@ -46,11 +46,5 @@
     "serve": "^11.3.2",
     "stylelint-config-twbs-bootstrap": "2.2.3"
   },
-  "keywords": [
-    "vanilla",
-    "bootstrap",
-    "ci-cd",
-    "purgecss-parcel",
-    "scss"
-  ]
+  "keywords": []
 }

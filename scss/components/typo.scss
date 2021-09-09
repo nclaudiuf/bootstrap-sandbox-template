@@ -1,0 +1,50 @@
+b,
+strong {
+	font-weight: $font-weight-bold !important;
+}
+
+.fw-lighter {
+	font-weight: $font-weight-lighter !important;
+}
+
+.fw-light {
+	font-weight: $font-weight-light !important;
+}
+
+.fw-normal {
+	font-weight: $font-weight-normal !important;
+}
+
+.fw-bold {
+	font-weight: $font-weight-bold !important;
+}
+
+.fw-bolder {
+	font-weight: $font-weight-bolder !important;
+}
+
+.lead {
+	color: rgba($lead-color, .75);
+}
+@media (max-width: 768px) {
+	.lead {
+		color: rgba($lead-color, .85);
+	}
+}
+.subtitle {
+	font-size: $subtitle-font-size;
+	color: $subtitle-color;
+}
+.text {
+	font-size: $text-font-size;
+	color: $text-color;
+}
+.text-link {
+	font-size: $text-link-font-size;
+	color: $text-link-color;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}

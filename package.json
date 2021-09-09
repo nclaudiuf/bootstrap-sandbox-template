@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-sandbox-template",
+  "name": "flexstrap-sandbox-template",
   "version": "1.0.0",
   "private": true,
   "description": "[CICD] Bootstrap Sandbox Starter Template purging unused css and bundling with parcel.\n\n[CICD-chain:] Sandbox-Github.Pages-Vercel.",
@@ -17,8 +17,8 @@
     "build:css": "npm run css",
     "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o dist/",
     "css-lint": "stylelint scss/",
-    "css-prefix": "postcss --replace assets/css/starter.css --use autoprefixer --map",
-    "css-purge": "purgecss --keyframes --css assets/css/starter.css --content index.html \"node_modules/bootstrap/js/dist/{modal}.js\" --output dist/",
+    "css-prefix": "postcss --replace scss/theme.scss --use autoprefixer --map",
+    "css-purge": "purgecss --keyframes --css scss/theme.scss --content index.html \"node_modules/bootstrap/js/dist/{modal}.js\" --output dist/",
     "css": "npm-run-all css-compile css-prefix",
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
@@ -26,7 +26,8 @@
     "test": "npm run css-lint && npm run css"
   },
   "dependencies": {
-    "@parcel/transformer-image": "2.0.0-nightly.1981+6231ca1d",
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "@parcel/transformer-sass": "2.0.0-rc.0",
     "@popperjs/core": "2.10.1",
     "bootstrap": "5.1.0",
     "bootstrap-icons": "1.5.0",
@@ -34,21 +35,22 @@
   },
   "devDependencies": {
     "parcel": "latest",
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "10.3.4",
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.10",
+    "postcss": "8.3.6",
     "postcss-cli": "^8.3.1",
-    "purgecss": "^4.0.2",
+    "purgecss": "^4.0.3",
+    "stylelint": "13.13.1",
     "serve": "^11.3.2",
-    "stylelint": "^13.12.0",
-    "stylelint-config-twbs-bootstrap": "^2.1.0"
+    "stylelint-config-twbs-bootstrap": "2.2.3"
   },
   "keywords": [
     "vanilla",
-    "parcel",
     "bootstrap",
-    "ci-cd"
+    "ci-cd",
+    "purgecss-parcel",
+    "scss"
   ]
 }

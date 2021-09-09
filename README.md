@@ -1,5 +1,5 @@
 <p align="center">
- 	<img stc="./.github/flexstrap-icon.png" width="64" height="64"/>
+ 	<img stc="./.github/flexstrap-icon-primary.png" width="64" height="64"/>
 </p>
 
 <h3 align="center">Flexstrap Starter Template</h3>

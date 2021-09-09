@@ -1,26 +1,5 @@
 <p align="center">
- 	<svg
-    xmlns="http://www.w3.org/2000/svg"
-    class="svg-icon-xl icon-tabler-brand-booking"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    role="img"
-  >
-    <path
-      clip-rule="evenodd"
-      fill-rule="evenodd"
-      d="M4 18v-9.5a4.5 4.5 0 0 1 4.5 -4.5h7a4.5 4.5 0 0 1 4.5 4.5v7a4.5 4.5 0 0 1 -4.5 4.5h-9.5a2 2 0 0 1 -2 -2z"
-      fill="currentColor"
-    ></path>
-    <path
-      clip-rule="evenodd"
-      fill-rule="evenodd"
-      d="M7 11v3h2v4h3v-4h2l1 -3h-3v-2a0 1 0 0 1 1 0h2v-3h-2a5 4 0 0 0 -4 4v1h-1"
-      fill="#fff"
-    ></path>
-    <line stroke="#fff" x1="15.32" x2="16.32" y1="16.32" y2="17.32"></line>
-  </svg>
+ 	<img stc="./.github/flexstrap-icon.png" width="64" height="64"/>
 </p>
 
 <h3 align="center">Flexstrap Starter Template</h3>

@@ -11,6 +11,9 @@
 .svg-icon-lg {
 	transform: scale($svg-icon-base * 1.5);
 }
+.svg-icon-xl {
+	transform: scale($svg-icon-base * 2);
+}
 
 @media only screen and (max-width: 768px) {
 	.svg-icon-md {

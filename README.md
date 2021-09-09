@@ -1,16 +1,39 @@
 <p align="center">
- <img src=".github/bs.logo.png" alt="bootsrap logo" width="64" height="64"/>
+ 	<svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="svg-icon-xl icon-tabler-brand-booking"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    role="img"
+  >
+    <path
+      clip-rule="evenodd"
+      fill-rule="evenodd"
+      d="M4 18v-9.5a4.5 4.5 0 0 1 4.5 -4.5h7a4.5 4.5 0 0 1 4.5 4.5v7a4.5 4.5 0 0 1 -4.5 4.5h-9.5a2 2 0 0 1 -2 -2z"
+      fill="currentColor"
+    ></path>
+    <path
+      clip-rule="evenodd"
+      fill-rule="evenodd"
+      d="M7 11v3h2v4h3v-4h2l1 -3h-3v-2a0 1 0 0 1 1 0h2v-3h-2a5 4 0 0 0 -4 4v1h-1"
+      fill="#fff"
+    ></path>
+    <line stroke="#fff" x1="15.32" x2="16.32" y1="16.32" y2="17.32"></line>
+  </svg>
 </p>
 
-<h3 align="center">Bootstrap npm starter template</h3>
+<h3 align="center">Flexstrap Starter Template</h3>
 
-<p align="center">Create new Bootstrap-powered npm projects in no time.</p>
+<p align="center">Create new Bootstrap-powered projects in no time.</p>
 
 ## About
 
-`bootstrap-sandbox-template` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @ncladuiuf. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.
+`flexstrap-starter` it's a Lightweight Design System to power your new amazing project! <br />
+The system it's based on Bootstrap 5 & Flexbox layout method.
+Created & maintained by @ncladuiuf.
 
-[![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/nclaudiuf/bootstrap-template)
+[![Build Status](https://github.com/nclaudiuf/flexstrap-starter/workflows/CI/badge.svg)](https://github.com/nclaudiuf/flexstrap-starter)
 
 ## Repo template
 
@@ -154,4 +177,4 @@ According to google pagespeed insights score both 100 on mobile and desktop.
 
 ### Credits
 
-[@mdo](https://github.com/mdo) & Bootstrap team
+Bootstrap team

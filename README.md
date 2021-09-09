@@ -1,5 +1,5 @@
 <p align="center">
- 	<img stc="./.github/flexstrap-icon-primary.png" width="64" height="64"/>
+ 	<img stc=".github/flexstrap-icon-primary.png" width="120" height="120" alt="Flexstrap logo"/>
 </p>
 
 <h3 align="center">Flexstrap Starter Template</h3>
@@ -12,7 +12,7 @@
 The system it's based on Bootstrap 5 & Flexbox layout method.
 Created & maintained by @ncladuiuf.
 
-[![Build Status](https://github.com/nclaudiuf/flexstrap-starter/workflows/CI/badge.svg)](https://github.com/nclaudiuf/flexstrap-starter)
+<!-- [![Build Status](https://github.com/nclaudiuf/flexstrap-starter/workflows/CI/badge.svg)](https://github.com/nclaudiuf/flexstrap-starter) -->
 
 ## Repo template
 
